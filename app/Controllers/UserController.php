@@ -13,6 +13,6 @@ class UserController extends BaseController
         $data =[
             'items' => $main->findAll()
         ];
-        return view ('ecommerce');
+        return view ('ecommerce', $data);
     }
 }
