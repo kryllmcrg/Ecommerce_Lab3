@@ -13,7 +13,7 @@ class UserModel extends Model
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['id', 'name', 'price'];
+    protected $allowedFields    = ['id', 'name', 'price', 'image'];
 
     // Dates
     protected $useTimestamps = false;
