@@ -203,7 +203,7 @@
 								<div class="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center"><span>-$20</span></div>
 								<div class="product_info">
 									<h6><?= $i['name']; ?></h6>
-									<div class="product_price">$520.00<span>$590.00</span></div>
+									<div class="product_price"><?= $i['price']; ?></div>
 								</div>
 							</div> 
 							<div class="red_button add_to_cart_button"><a href="#">add to cart</a></div>
