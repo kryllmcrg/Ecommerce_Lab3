@@ -155,9 +155,6 @@
 				<div class="col">
 					<div class="main_slider_content">
 						<h6>Spring / Summer Collection 2017</h6>
-						<?php foreach ($items as $i): ?>
-    <?= "id :". $i['id']. "," ."name :". $i['name']; ?>
-    <?php endforeach; ?>
 						<h1>Get up to 30% Off New Arrivals</h1>
 						<div class="red_button shop_now_button"><a href="#">shop now</a></div>
 					</div>
@@ -241,7 +238,6 @@
 						</div>
 
 						<!-- Product 2 -->
-
 						<div class="product-item women">
 							<div class="product product_filter">
 								<div class="product_image">
@@ -387,6 +383,7 @@
 							</div>
 							<div class="red_button add_to_cart_button"><a href="#">add to cart</a></div>
 						</div>
+						
 					</div>
 				</div>
 			</div>
