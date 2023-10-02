@@ -215,9 +215,6 @@
 			</div>
 		</div>
 	</div>
-
-	<!-- Deal of the week -->
-
 	
 						<!-- Slider Navigation -->
 
