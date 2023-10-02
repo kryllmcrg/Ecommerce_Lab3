@@ -58,7 +58,7 @@ class AdminController extends BaseController
                 'isloggedin' => true,
             ];
             $session->set($ses_dat);
-            return redirect()->to('/register');
+            return redirect()->to('/home');
         }else{
             $session->setFlashdata('msg','Password is incorrect');
             return redirect()->to('/login');
