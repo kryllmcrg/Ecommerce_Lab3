@@ -64,7 +64,7 @@ class AdminController extends BaseController
             return redirect()->to('/login');
         }
        }else{
-        $session->setFlashdata('msg','ther is no such Uusername');
+        $session->setFlashdata('msg','there is no such Username');
         return redirect()->to('/login');
        }
     }
