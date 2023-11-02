@@ -206,7 +206,7 @@
 									<div class="product_price"><?= $i['price']; ?></div>
 								</div>
 							</div> 
-							<div class="red_button add_to_cart_button"><a href="#">View Product</a></div>
+							<a href="<?= site_url('products/' . $i['id']); ?>">View Product</a>
 						</div>
 						<?php endforeach; ?>
 						

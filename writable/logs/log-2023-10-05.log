@@ -1,0 +1,16 @@
+CRITICAL - 2023-10-05 14:04:52 --> Undefined array key "price"
+in APPPATH\Views\ecommerce\body.php on line 206.
+ 1 APPPATH\Views\ecommerce\body.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'C:\\laragon\\www\\Ecommerce_Lab3\\app\\Views\\ecommerce\\body.php', 206)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Ecommerce_Lab3\\app\\Views\\ecommerce\\body.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('ecommerce/body', [], true)
+ 5 APPPATH\Views\ecommerce.php(5): view('ecommerce/body')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Ecommerce_Lab3\\app\\Views\\ecommerce.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('ecommerce', [], true)
+ 9 APPPATH\Controllers\UserController.php(16): view('ecommerce', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->home()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Ecommerce_Lab3\\public\\index.php')
